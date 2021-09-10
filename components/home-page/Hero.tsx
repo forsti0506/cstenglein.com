@@ -3,17 +3,17 @@ import Image from 'next/image';
 
 const Hero: FC = () => {
   return (
-    <section className='my-20 text-center bg-white flex justify-center'>
+    <section className='pt-20 pb-10 text-center flex justify-center text-white bg-blue-600'>
       <div className='container'>
-        <h1 className='text-5xl font-extrabold mb-6'>Hi, I&apos;m Christoph</h1>
-        <h2 className='text-xl mb-6'>I&apos;m a full-stack web developer</h2>
+        <h1 className='text-5xl font-extrabold mb-6'>Christoph Stenglein</h1>
+        <h2 className='text-xl mb-6'>Frontend - Backend - Web</h2>
         <div className='flex justify-center mt-6'>
           <Image
             src='/images/me_small.jpg'
             alt='An Image showing Christoph'
             width={200}
             height={200}
-            className='rounded-full my-6'
+            className='rounded-full'
           />
         </div>
       </div>
