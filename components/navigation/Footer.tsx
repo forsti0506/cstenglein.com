@@ -11,25 +11,25 @@ const Footer: FC = () => {
       <article className='py-1 text-sm'>
         Created by me (©️ 2021) with Love,{' '}
         <Link href='https://nextjs.org'>
-          <a className='underline text-gray-500'>Next.js</a>
+          <a className='underline text-blue-200'>Next.js</a>
         </Link>{' '}
         and{' '}
         <Link href='https://tailwindcss.com'>
-          <a className='underline text-blue-400'>TailwindCSS</a>
+          <a className='underline text-blue-200'>TailwindCSS</a>
         </Link>
       </article>
 
       <article className='text-sm'>
         <Link href='/imprint'>
-          <a>Imprint | </a>
-        </Link>
-        Icons by{' '}
+          <a className='underline text-blue-200'>Imprint</a>
+        </Link>{' '}
+        | Icons by{' '}
         <Link href='https://heroicons.com'>
-          <a className='underline text-blue-400'>HeroIcons</a>
-        </Link>
-        {' '} | Bitcoin Icon by{' '}
+          <a className='underline text-blue-200'>HeroIcons</a>
+        </Link>{' '}
+        | Bitcoin Icon by{' '}
         <Link href='https://bitcoinicons.com/'>
-          <a className='underline text-blue-400'>Bitcoin Icons</a>
+          <a className='underline text-blue-200'>Bitcoin Icons</a>
         </Link>
       </article>
     </footer>

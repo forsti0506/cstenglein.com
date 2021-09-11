@@ -9,7 +9,7 @@ const Hero: FC = () => {
         <div className='md:h-1/2 flex flex-col items-center'>
           <h1 className='text-5xl font-extrabold mb-8'>Christoph Stenglein</h1>
           <h2 className='text-2xl mb-10'>Frontend - Backend - Web</h2>
-          <div className='mb-10'>
+          <div className='pb-10'>
             <Image
               src='/images/me_small.jpg'
               alt='An Image showing Christoph'
@@ -19,7 +19,7 @@ const Hero: FC = () => {
             />
           </div>
         </div>
-          <Intro />
+        <Intro />
       </div>
     </section>
   );
