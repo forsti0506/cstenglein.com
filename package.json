@@ -1,7 +1,13 @@
 {
-  "name": "website",
-  "version": "0.1.0",
+  "name": "cstenglein-webpage",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Stenglein",
+    "email": "christoph@cstenglein.com",
+    "url": "https://www.cstenglein.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

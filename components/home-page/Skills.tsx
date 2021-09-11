@@ -4,9 +4,12 @@ import { FC } from 'react';
 
 const Skills: FC = () => {
   return (
-    <section className='bg-white flex flex-col md:flex-row justify-center container mx-auto py-4'>
+    <section className='bg-white flex flex-col lg:flex-row justify-center container mx-auto py-4 gap-3 px-4 xl:px-4'>
       <article className='skills-box'>
         <h4 className='skills-title'>Languages</h4>
+        <div className='p-2 text-blue-600'>
+          <Image src='/icons/academic.svg' width={40} height={40} alt='Icon of a academic cap' />
+        </div>
         <ul className='inline-block'>
           <li className='py-0.5'>
             <Link href='https://stackoverflow.com/a/145179' passHref>
@@ -21,6 +24,9 @@ const Skills: FC = () => {
       </article>
       <article className='skills-box'>
         <h4 className='skills-title'>Frameworks {'&'} other Technologies</h4>
+        <div className='p-2'>
+          <Image src='/icons/computer.svg' width={40} height={40} alt='Icon of a computer' />
+        </div>
         <ul className='inline-block'>
           <li className='py-0.5'>Angular</li>
           <li className='py-0.5'>React</li>
@@ -32,6 +38,9 @@ const Skills: FC = () => {
       </article>
       <article className='skills-box'>
         <h4 className='skills-title'>Things about me</h4>
+        <div className='p-2'>
+          <Image src='/icons/smiley.svg' width={40} height={40} alt='Icon of a smiley' />
+        </div>
         <ul className='inline-block'>
           <li className='py-0.5'>Linux User 🐧</li>
           <li className='py-0.5'>Managing my hosted Server 👨‍💻</li>

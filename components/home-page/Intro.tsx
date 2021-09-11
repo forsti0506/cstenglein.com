@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Intro: FC = () => {
   return (
     <section className='flex justify-center px-4 md:h-1/2 items-center hxl:w-1/2 mx-auto pb-10'>
-      <div className='flex justify-center flex-col px-2 border-2 border-gray-300 pt-12 pb-10 shadow-md rounded'>
+      <div className='flex justify-center flex-col px-2 border-2 border-gray-300 pt-12 pb-10 shadow-md rounded-xl'>
         <h2 className='text-3xl font-extrabold'>
           Hi, I{"'"}m Christoph!{' '}
           <div id='waving' className='inline-block'>
