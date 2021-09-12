@@ -9,7 +9,7 @@ const Footer: FC = () => {
       </article>
 
       <article className='py-1 text-sm'>
-        Created by me (©️ 2021) with Love,{' '}
+        Created by me (© 2021) with Love,{' '}
         <Link href='https://nextjs.org'>
           <a className='underline text-blue-200'>Next.js</a>
         </Link>{' '}
