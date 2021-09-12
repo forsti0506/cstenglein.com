@@ -4,7 +4,7 @@ import { FC } from 'react';
 
 const Skills: FC = () => {
   return (
-    <section className='bg-white flex flex-col lg:flex-row justify-center container mx-auto py-4 gap-3 px-4 xl:px-4'>
+    <section className='bg-white flex flex-col lg:flex-row justify-center container mx-auto py-4 gap-3 px-4'>
       <article className='skills-box -mt-10'>
         <h4 className='skills-title'>Languages</h4>
         <div className='p-2 text-blue-600'>
