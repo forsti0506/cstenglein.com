@@ -9,7 +9,7 @@
 }
 
 .header-link {
-  @apply px-2 lg:text-lg font-bold text-blue-500 hover:text-blue-700;
+  @apply px-2 lg:text-lg font-bold text-indigo-600 hover:text-black;
 }
 
 .contact-link {

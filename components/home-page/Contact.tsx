@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 const Contact: FC = () => {
   return (
-    <div className='bg-indigo-600'>
+    <section className='bg-indigo-600 py-5'>
       <section className='flex flex-col justify-center mx-5 xl:w-2/3 xl:mx-auto rounded-xl shadow-md bg-white text-black'>
         <h4 className='my-10 text-2xl font-bold text-center'>Contact me</h4>
         <article className='list-none flex flex-col lg:flex-row items-center text-center justify-center pb-10 px-4 gap-3'>
@@ -37,7 +37,7 @@ const Contact: FC = () => {
           </Link>
         </article>
       </section>
-    </div>
+    </section>
   );
 };
 

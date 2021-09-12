@@ -3,8 +3,8 @@ import { FC } from 'react';
 
 const Footer: FC = () => {
   return (
-    <footer className='flex flex-col justify-center items-center p-12 bg-indigo-600 text-white'>
-      <article className='m-5 text-white'>
+    <footer className='flex flex-col justify-center items-center p-6 bg-indigo-600 text-white border-t border-white'>
+      <article className='p-6 text-white italic'>
         Don{"'"}t find fault, find a remedy; anybody can complain - Henry Ford
       </article>
 
