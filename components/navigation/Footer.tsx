@@ -10,13 +10,13 @@ const Footer: FC = () => {
 
       <article className='py-1 text-sm text-center'>
         Created by me (© 2021) with Love,{' '}
-        <Link href='https://nextjs.org'>
-          <a className='underline text-blue-200'>Next.js</a>
-        </Link>{' '}
+        <a className='underline text-blue-200' href='https://nextjs.org' target='_blank' rel='noopener noreferrer'>
+          Next.js
+        </a>{' '}
         and{' '}
-        <Link href='https://tailwindcss.com'>
-          <a className='underline text-blue-200'>TailwindCSS</a>
-        </Link>
+        <a className='underline text-blue-200' href='https://tailwindcss.com' target='_blank' rel='noopener noreferrer'>
+          TailwindCSS
+        </a>
       </article>
 
       <article className='text-sm text-center'>
@@ -24,13 +24,18 @@ const Footer: FC = () => {
           <a className='underline text-blue-200'>Imprint</a>
         </Link>{' '}
         | Icons by{' '}
-        <Link href='https://heroicons.com'>
-          <a className='underline text-blue-200'>HeroIcons</a>
-        </Link>{' '}
+        <a className='underline text-blue-200' href='https://heroicons.com' target='_blank' rel='noopener noreferrer'>
+          HeroIcons
+        </a>{' '}
         | Bitcoin Icon by{' '}
-        <Link href='https://bitcoinicons.com/'>
-          <a className='underline text-blue-200'>Bitcoin Icons</a>
-        </Link>
+        <a
+          className='underline text-blue-200'
+          href='https://bitcoinicons.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Bitcoin Icons
+        </a>
       </article>
     </footer>
   );

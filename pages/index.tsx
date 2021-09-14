@@ -5,7 +5,7 @@ import Projects from '../components/home-page/Projects';
 import Skills from '../components/home-page/Skills';
 import Footer from '../components/navigation/Footer';
 
-export const HomePage: FC = () => {
+export const HomePage: FC = (props) => {
   return (
     <main className='mt-20 block'>
       <Hero />

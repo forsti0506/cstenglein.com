@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import Link from 'next/link';
 
 const Intro: FC = () => {
   return (
@@ -16,11 +15,14 @@ const Intro: FC = () => {
           <div>My strength is the front-end, but I also got decent back-end skills.</div>
           <div className='pb-0.5'>
             If you are interested in my open source work, you can find it on my{' '}
-            <Link href='https://github.com/cstenglein'>
-              <a className='underline text-blue-200' target='_blank' rel='noopener noreferrer'>
-                Github
-              </a>
-            </Link>{' '}
+            <a
+              className='underline text-blue-200'
+              href='https://github.com/cstenglein'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Github
+            </a>{' '}
             page.
           </div>
           <div className='pt-4'>

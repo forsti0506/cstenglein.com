@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import { FC } from 'react';
+import { useContact } from '../../hooks/useContact';
 
 const Header: FC = () => {
+  const { link, clickHandler } = useContact();
+
   return (
     <header className='fixed top-0 bg-white h-20 px-5 w-full flex items-center justify-between z-10 shadow-md'>
       <Link href='/' passHref>
@@ -12,9 +15,9 @@ const Header: FC = () => {
       <nav>
         <ul className='flex items-center list-none'>
           <li className='header-link'>
-            <Link href='/contact'>
-              <a>Contact</a>
-            </Link>
+            <a href={link} onClick={clickHandler}>
+              Contact me
+            </a>
           </li>
         </ul>
       </nav>

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { FC } from 'react';
 
 const Skills: FC = () => {
@@ -12,9 +11,9 @@ const Skills: FC = () => {
         </div>
         <ul className='inline-block'>
           <li className='py-0.5'>
-            <Link href='https://stackoverflow.com/a/145179' passHref>
+            <a href='https://stackoverflow.com/a/145179' target='_blank' rel='noopener noreferrer'>
               HTML
-            </Link>
+            </a>
           </li>
           <li className='py-0.5'>CSS</li>
           <li className='py-0.5'>JavaScript / TypeScript</li>
@@ -31,6 +30,7 @@ const Skills: FC = () => {
           <li className='py-0.5'>Angular</li>
           <li className='py-0.5'>React</li>
           <li className='py-0.5'>Node.js</li>
+          <li className='py-0.5'>Next.js</li>
           <li className='py-0.5'>SCSS / SASS </li>
           <li className='py-0.5'>TailwindCSS </li>
           <li className='py-0.5'>Docker</li>
