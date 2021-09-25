@@ -4,7 +4,7 @@ import Intro from './Intro';
 
 const Hero: FC = () => {
   return (
-    <section className='content-container flex justify-center pt-10 text-center text-white bg-gradient-to-tr from-indigo-700 to-indigo-500'>
+    <section className='content-container flex justify-center pt-10 text-center text-white bg-gradient-to-tr from-indigo-600 to-indigo-400'>
       <div className='container mt-20'>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='text-5xl font-extrabold mb-8'>Christoph Stenglein</h1>
