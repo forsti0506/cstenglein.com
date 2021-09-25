@@ -10,26 +10,26 @@ const Footer: FC = () => {
 
       <article className='py-1 text-sm text-center'>
         Created by me (© 2021) with Love,{' '}
-        <a className='underline text-blue-200' href='https://nextjs.org' target='_blank' rel='noopener noreferrer'>
+        <a className='underline text-white' href='https://nextjs.org' target='_blank' rel='noopener noreferrer'>
           Next.js
         </a>{' '}
         and{' '}
-        <a className='underline text-blue-200' href='https://tailwindcss.com' target='_blank' rel='noopener noreferrer'>
+        <a className='underline text-white' href='https://tailwindcss.com' target='_blank' rel='noopener noreferrer'>
           TailwindCSS
         </a>
       </article>
 
       <article className='text-sm text-center'>
         <Link href='/imprint'>
-          <a className='underline text-blue-200'>Imprint</a>
+          <a className='underline text-white'>Imprint</a>
         </Link>{' '}
         | Icons by{' '}
-        <a className='underline text-blue-200' href='https://heroicons.com' target='_blank' rel='noopener noreferrer'>
+        <a className='underline text-white' href='https://heroicons.com' target='_blank' rel='noopener noreferrer'>
           HeroIcons
         </a>{' '}
         | Bitcoin Icon by{' '}
         <a
-          className='underline text-blue-200'
+          className='underline text-white'
           href='https://bitcoinicons.com/'
           target='_blank'
           rel='noopener noreferrer'

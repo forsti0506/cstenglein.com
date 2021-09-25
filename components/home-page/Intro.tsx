@@ -16,7 +16,7 @@ const Intro: FC = () => {
           <div className='pb-0.5'>
             If you are interested in my open source work, you can find it on my{' '}
             <a
-              className='underline text-blue-200'
+              className='underline text-white'
               href='https://github.com/cstenglein'
               target='_blank'
               rel='noopener noreferrer'

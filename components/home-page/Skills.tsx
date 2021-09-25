@@ -11,7 +11,7 @@ const Skills: FC = () => {
         </div>
         <ul className='inline-block'>
           <li className='py-0.5'>
-            <a className='underline text-indigo-700' href='https://stackoverflow.com/a/145179' target='_blank' rel='noopener noreferrer'>
+            <a className='underline text-indigo-600' href='https://stackoverflow.com/a/145179' target='_blank' rel='noopener noreferrer'>
               HTML
             </a>
           </li>
