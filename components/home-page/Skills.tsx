@@ -4,21 +4,21 @@ import { FC } from 'react';
 const Skills: FC = () => {
   return (
     <section className='bg-white flex flex-col lg:flex-row justify-center container mx-auto p-4 gap-3'>
-      <article className='skills-box -mt-10'>
+      <article className='skills-box'>
         <h4 className='skills-title'>Languages</h4>
         <div className='p-2 text-blue-600'>
           <Image src='/icons/academic.svg' width={40} height={40} alt='Icon of a academic cap' />
         </div>
         <ul className='inline-block'>
           <li className='py-0.5'>
-            <a href='https://stackoverflow.com/a/145179' target='_blank' rel='noopener noreferrer'>
+            <a className='underline text-indigo-700' href='https://stackoverflow.com/a/145179' target='_blank' rel='noopener noreferrer'>
               HTML
             </a>
           </li>
           <li className='py-0.5'>CSS</li>
           <li className='py-0.5'>JavaScript / TypeScript</li>
-          <li className='py-0.5'>Go</li>
           <li className='py-0.5'>Java</li>
+          <li className='py-0.5'>Go</li>
         </ul>
       </article>
       <article className='skills-box'>

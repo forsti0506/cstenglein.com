@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Intro: FC = () => {
   return (
-    <section className='flex justify-center px-4 md:h-1/2 items-center xl:w-1/2 mx-auto pb-10'>
+    <section className='flex justify-center px-4 md:h-1/2 items-center xl:w-1/2 mx-auto pb-20'>
       <div className='flex justify-center flex-col px-2 border-2 border-gray-300 pt-12 pb-10 shadow-md rounded-xl'>
         <h2 className='text-3xl font-extrabold pb-5'>
           Hi, I{"'"}m Christoph!{' '}

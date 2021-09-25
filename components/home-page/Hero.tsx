@@ -4,13 +4,13 @@ import Intro from './Intro';
 
 const Hero: FC = () => {
   return (
-    <section className='pt-10 content-container text-center flex justify-center text-white bg-gradient-to-tr from-indigo-700 to-indigo-500'>
-      <div className='container'>
-        <div className='md:h-1/4 flex flex-col items-center justify-center'>
+    <section className='content-container flex justify-center pt-10 text-center text-white bg-gradient-to-tr from-indigo-700 to-indigo-500'>
+      <div className='container mt-20'>
+        <div className='flex flex-col items-center justify-center'>
           <h1 className='text-5xl font-extrabold mb-8'>Christoph Stenglein</h1>
-          <h2 className='text-2xl mb-10'>Frontend - Backend - Web</h2>
+          <h2 className='text-2xl'>Frontend - Backend - Web</h2>
         </div>
-        <div className='pb-10 md:p-0 md:h-1/4 md:flex md:justify-center md:items-center'>
+        <div className='flex justify-center my-10'>
           <Image
             src='/images/me_small.jpg'
             alt='An Image showing Christoph'
