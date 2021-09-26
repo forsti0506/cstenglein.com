@@ -5,7 +5,7 @@ const Skills: FC = () => {
   return (
     <section className='bg-white flex flex-col lg:flex-row justify-center container mx-auto p-4 gap-3'>
       <article className='skills-box'>
-        <h4 className='skills-title'>Languages</h4>
+        <h3 className='skills-title'>Languages</h3>
         <div className='p-2 text-blue-600'>
           <Image src='/icons/academic.svg' width={40} height={40} alt='Icon of a academic cap' />
         </div>
@@ -22,7 +22,7 @@ const Skills: FC = () => {
         </ul>
       </article>
       <article className='skills-box'>
-        <h4 className='skills-title'>Frameworks {'&'} other Technologies</h4>
+        <h3 className='skills-title'>Frameworks {'&'} other Technologies</h3>
         <div className='p-2'>
           <Image src='/icons/computer.svg' width={40} height={40} alt='Icon of a computer' />
         </div>
@@ -37,7 +37,7 @@ const Skills: FC = () => {
         </ul>
       </article>
       <article className='skills-box'>
-        <h4 className='skills-title'>Things about me</h4>
+        <h3 className='skills-title'>Things about me</h3>
         <div className='p-2'>
           <Image src='/icons/smiley.svg' width={40} height={40} alt='Icon of a smiley' />
         </div>
