@@ -21,7 +21,7 @@ const Projects: FC = () => {
             project.
           </div>
           <div className='py-2'>Written with React {'&'} TailwindCSS.</div>
-          <button className='m-auto my-3 p-3 border border-indigo-600 hover:shadow-lg hover:bg-indigo-600 hover:text-white rounded'>
+          <div className='m-auto my-3 p-3 border border-indigo-600 hover:shadow-lg hover:bg-indigo-600 hover:text-white rounded'>
             <a
               className='flex'
               href='https://github.com/cstenglein/raspiblitz-web'
@@ -37,7 +37,7 @@ const Projects: FC = () => {
           <h2 className='py-3 text-lg font-bold'>This Website ;)</h2>
           <div className='py-2'>The website you can see here.</div>
           <div className='py-2'>Written with Next.js {'&'} TailwindCSS</div>
-          <button className='mx-auto my-3 p-3 border border-indigo-600 hover:shadow-lg hover:bg-indigo-600 hover:text-white rounded'>
+          <div className='mx-auto my-3 p-3 border border-indigo-600 hover:shadow-lg hover:bg-indigo-600 hover:text-white rounded'>
             <a
               className='flex'
               href='https://github.com/cstenglein/cstenglein.com'
