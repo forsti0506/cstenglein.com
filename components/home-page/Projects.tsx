@@ -31,7 +31,7 @@ const Projects: FC = () => {
               Go to Project&nbsp;
               <Image className='' alt='External Link Icon' src='/icons/link.svg' width={18} height={18} />
             </a>
-          </button>
+          </div>
         </article>
         <article className='lg:w-1/3 bg-white text-black rounded p-5 flex justify-center flex-col'>
           <h2 className='py-3 text-lg font-bold'>This Website ;)</h2>
@@ -47,7 +47,7 @@ const Projects: FC = () => {
               Go to Project&nbsp;
               <Image className='' alt='External Link Icon' src='/icons/link.svg' width={18} height={18} />
             </a>
-          </button>
+          </div>
         </article>
       </article>
     </section>
